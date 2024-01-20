@@ -1,0 +1,126 @@
+body {
+    cursor: cell;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /*top part of the page including navi */
+  nav {
+    overflow: hidden;
+    background-color: rgb(154, 46, 123);
+    padding: 30px;
+    }
+
+  .menu {
+    box-shadow: 10px 10px 5px rgb(78, 11, 47);
+    margin: 5%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+      float: inline-start;
+      width: 15%;
+      text-align: center;
+      position: relative;
+      color: rgb(245, 240, 235);
+      font-size: medium;
+      padding-right: 15px;
+     }
+
+  .button {
+    float: inline-start;
+    width: 15%;
+    text-align: center;
+    position: relative;
+    color: rgb(245, 240, 235);
+    font-size: medium;
+  }
+  
+  #hyte {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    }
+  
+/*navi buttons */
+a {
+    color: rgb(243, 207, 241);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(238, 9, 177);
+    cursor: pointer;
+}
+a:active {
+    color: rgb(72, 4, 31);
+}
+  
+/* middle section */
+  #valiotsikko {
+    text-align: center;
+    font-size: xx-large;
+    margin: 15px;
+    padding-bottom: 20px;
+    color: rgb(64, 35, 59);
+    }
+  
+/*lower part under middle section*/
+  .alaosa {
+    background-color: rgb(244, 228, 238);
+    padding: 30px;
+    }
+  
+main {
+    background-color: rgb(232, 211, 238);
+    margin: 5%;
+    }
+  
+#hams {
+    float: left;
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    }
+
+/*info text */
+  h1 {
+    padding: 30px;
+    margin: 0%;
+  }
+  
+  h3 {
+    border: 0cm;
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    color: rgb(86, 17, 17);
+  }
+  
+  p {
+    padding: 5px;
+    margin: 0%;
+    font-size: small;
+    color: rgb(67, 22, 77);
+    }
+
+.about {
+    padding-right: 2cm;
+    color: rgb(88, 13, 76);
+}
+  
+/*footer*/
+footer {
+    background-color: rgb(221, 152, 228);
+    margin: 0;
+  } 
+#copy {
+    padding: 30px;
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+  
